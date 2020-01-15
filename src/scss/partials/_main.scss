@@ -1,1 +1,34 @@
 //parte centrale
+main {
+  display: flex;
+  .jumbo-img {
+    width: 50%;
+    margin-top: 100px;
+  }
+  .jumbo {
+    @extend .jumbo-img;
+    font-size: 25px;
+    line-height: 1.4;
+    margin-right: 50px;
+  }
+  .main_img {
+    width: 100%;
+  }
+  .google {
+    border-radius: $borderRadius;
+    background-color: $buttonColor;
+    color: white;
+    border-style: none;
+    padding: 10px 15px;
+    margin-top: 30px;
+  }
+  .slack {
+    @extend .google;
+  }
+  span {
+    font-size: 15px;
+    padding: 10px;
+    color: grey;
+  }
+
+}

@@ -1,7 +1,7 @@
 // barra iniziale
 .container {
-  width: 80%;
-  margin: 0 10% 0 10%;
+  width: 86%;
+  margin: 0 7% 0 7%;
   header {
     color: $fontColor;
     border-bottom: $borderStyle $fontColor;
@@ -13,6 +13,15 @@
     display: flex;
     a {
       padding: 10px;
+      color: $fontColor;
+      margin-right: 10px;
+    }
+    button {
+      border-color: $buttonColor;
+      color: $buttonColor;
+      border-radius: $borderRadius;
+      background-color: transparent;
+      padding: 5px 15px;
     }
   }
 }

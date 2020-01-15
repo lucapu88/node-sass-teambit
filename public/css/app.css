@@ -8,9 +8,13 @@ a {
   text-decoration: none;
 }
 
+body {
+  color: #58402C;
+}
+
 .container {
-  width: 80%;
-  margin: 0 10% 0 10%;
+  width: 86%;
+  margin: 0 7% 0 7%;
 }
 
 .container header {
@@ -30,5 +34,52 @@ a {
 
 .container .info a {
   padding: 10px;
+  color: #58402C;
+  margin-right: 10px;
+}
+
+.container .info button {
+  border-color: #30488F;
+  color: #30488F;
+  border-radius: 7px;
+  background-color: transparent;
+  padding: 5px 15px;
+}
+
+main {
+  display: -webkit-box;
+  display: flex;
+}
+
+main .jumbo-img,
+main .jumbo {
+  width: 50%;
+  margin-top: 100px;
+}
+
+main .jumbo {
+  font-size: 25px;
+  line-height: 1.4;
+  margin-right: 50px;
+}
+
+main .main_img {
+  width: 100%;
+}
+
+main .google,
+main .slack {
+  border-radius: 7px;
+  background-color: #30488F;
+  color: white;
+  border-style: none;
+  padding: 10px 15px;
+  margin-top: 30px;
+}
+
+main span {
+  font-size: 15px;
+  padding: 10px;
+  color: grey;
 }
 
