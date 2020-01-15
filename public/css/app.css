@@ -4,3 +4,31 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+.container header {
+  color: #58402C;
+  border-bottom: 1px solid #58402C;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.container .info {
+  display: -webkit-box;
+  display: flex;
+}
+
+.container .info a {
+  padding: 10px;
+}
+

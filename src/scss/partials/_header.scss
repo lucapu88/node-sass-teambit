@@ -1,1 +1,18 @@
 // barra iniziale
+.container {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  header {
+    color: $fontColor;
+    border-bottom: $borderStyle $fontColor;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .info {
+    display: flex;
+    a {
+      padding: 10px;
+    }
+  }
+}
