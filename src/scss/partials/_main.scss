@@ -1,9 +1,13 @@
 //parte centrale
 main {
   display: flex;
+  flex-direction: column;
+  .jumbo-container {
+    display: flex;
+  }
   .jumbo-img {
     width: 50%;
-    margin-top: 100px;
+    margin: 150px 0 100px 0;
   }
   .jumbo {
     @extend .jumbo-img;
@@ -15,12 +19,7 @@ main {
     width: 100%;
   }
   .google {
-    border-radius: $borderRadius;
-    background-color: $buttonColor;
-    color: white;
-    border-style: none;
-    padding: 10px 15px;
-    margin-top: 30px;
+    @include buttonProperty();
   }
   .slack {
     @extend .google;
@@ -30,5 +29,14 @@ main {
     padding: 10px;
     color: grey;
   }
-
+  a {
+    @extend span;
+    color: $fontColor;
+  }
+}
+.jumboPink {
+  display: flex;
+  background-color: #FFE7D2;
+  justify-content: center;
+  padding: 50px 100px;
 }

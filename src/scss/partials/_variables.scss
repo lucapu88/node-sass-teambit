@@ -1,4 +1,13 @@
+//variabili e mixin
 $buttonColor: #30488F;
 $fontColor: #58402C;
 $borderStyle: 1px solid ;
 $borderRadius: 7px;
+@mixin buttonProperty() {
+  border-radius: $borderRadius;
+  background-color: $buttonColor;
+  color: white;
+  border-style: none;
+  padding: 10px 15px;
+  margin-top: 30px;
+}

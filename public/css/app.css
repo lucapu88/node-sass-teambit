@@ -6,6 +6,11 @@
 
 a {
   text-decoration: none;
+  color: #58402C;
+}
+
+a:hover {
+  color: #30488F;
 }
 
 body {
@@ -18,12 +23,16 @@ body {
 }
 
 .container header {
+  background-color: white;
   color: #58402C;
   border-bottom: 1px solid #58402C;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
           justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 86%;
   padding: 15px;
 }
 
@@ -34,7 +43,6 @@ body {
 
 .container .info a {
   padding: 10px;
-  color: #58402C;
   margin-right: 10px;
 }
 
@@ -49,12 +57,20 @@ body {
 main {
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+main .jumbo-container {
+  display: -webkit-box;
+  display: flex;
 }
 
 main .jumbo-img,
 main .jumbo {
   width: 50%;
-  margin-top: 100px;
+  margin: 150px 0 100px 0;
 }
 
 main .jumbo {
@@ -77,9 +93,23 @@ main .slack {
   margin-top: 30px;
 }
 
-main span {
+main span,
+main a {
   font-size: 15px;
   padding: 10px;
   color: grey;
+}
+
+main a {
+  color: #58402C;
+}
+
+.jumboPink {
+  display: -webkit-box;
+  display: flex;
+  background-color: #FFE7D2;
+  -webkit-box-pack: center;
+          justify-content: center;
+  padding: 50px 100px;
 }
 
