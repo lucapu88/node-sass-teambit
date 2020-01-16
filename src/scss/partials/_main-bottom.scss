@@ -67,11 +67,24 @@
     background-color: white;
     width: 550px;
     line-height: $lineHeight;
-    padding: 20px;
+    padding: 20px 30px;
     border: $borderStyle grey;
     border-radius: 5px;
     p {
       padding: 10px;
     }
+  }
+  .buttons { //se gli do come nome jumbo-button non prende le stesse proprietà
+    // @extend .jumbo-button; //non funziona
+
+    .google {
+      @include buttonProperty($buttonColor);
+    }
+    .slack {
+      @extend .google;
+    }
+  }
+  .emailAddress {
+    padding: 20px 0 50px;
   }
 }

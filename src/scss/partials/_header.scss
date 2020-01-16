@@ -1,7 +1,6 @@
 // barra iniziale
 .container {
-  width: 86%;
-  margin: 0 7% 0 7%;
+  @include sizeContainer();
   header {
     background-color: white;
     color: $fontColor;
@@ -20,11 +19,7 @@
       margin-right: 10px;
     }
     button {
-      border-color: $buttonColor;
-      color: $buttonColor;
-      border-radius: $borderRadius;
-      background-color: transparent;
-      padding: 5px 15px;
+      @include otherButtonProp();
     }
   }
 }

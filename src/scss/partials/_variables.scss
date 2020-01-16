@@ -5,11 +5,22 @@ $backgroundColor: #FFE7D2;
 $borderStyle: 1px solid ;
 $borderRadius: 7px;
 $lineHeight: 1.5;
-@mixin buttonProperty() {
+@mixin buttonProperty($color) { //setta le proprietà dei bottoni blu
   border-radius: $borderRadius;
-  background-color: $buttonColor;
+  background-color: $color;
   color: white;
   border-style: none;
   padding: 10px 15px;
   margin-top: 30px;
+}
+@mixin otherButtonProp() { //setta le proprietà dei bottoni diversi da quelli blu
+  border-color: $buttonColor;
+  color: $buttonColor;
+  border-radius: $borderRadius;
+  background-color: transparent;
+  padding: 5px 15px;
+}
+@mixin sizeContainer() { //setta le dimensioni di un contenitore
+  width: 86%;
+  margin: 0 7% 0 7%;
 }

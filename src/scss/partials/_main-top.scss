@@ -19,7 +19,7 @@ main {
     width: 100%;
   }
   .google {
-    @include buttonProperty();
+    @include buttonProperty($buttonColor);
   }
   .slack {
     @extend .google;

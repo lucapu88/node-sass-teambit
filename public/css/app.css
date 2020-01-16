@@ -88,6 +88,8 @@ main .main_img {
 }
 
 main .google,
+main .final-pink .buttons .slack,
+.final-pink .buttons main .slack,
 main .slack {
   border-radius: 7px;
   background-color: #30488F;
@@ -293,12 +295,72 @@ main a {
   background-color: white;
   width: 550px;
   line-height: 1.5;
-  padding: 20px;
+  padding: 20px 30px;
   border: 1px solid grey;
   border-radius: 5px;
 }
 
 .final-pink .whiteSquare p {
   padding: 10px;
+}
+
+.final-pink .buttons .google,
+.final-pink .buttons .slack {
+  border-radius: 7px;
+  background-color: #30488F;
+  color: white;
+  border-style: none;
+  padding: 10px 15px;
+  margin-top: 30px;
+}
+
+.final-pink .emailAddress {
+  padding: 20px 0 50px;
+}
+
+footer {
+  width: 86%;
+  margin: 0 7% 0 7%;
+  display: -webkit-box;
+  display: flex;
+  padding: 50px 0 30px;
+}
+
+footer .column-teambit {
+  display: -webkit-box;
+  display: flex;
+  width: 425px;
+  margin-right: 30px;
+}
+
+footer .column-teambit img {
+  height: 75px;
+  width: 150px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+footer .column-teambit p {
+  font-weight: bolder;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+footer .column-teambit p a {
+  color: #30488F;
+}
+
+footer .column-teambit p a:hover {
+  text-decoration: underline;
+}
+
+footer .column {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  padding: 15px;
+  line-height: 1.5;
 }
 
