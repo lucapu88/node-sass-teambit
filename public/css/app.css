@@ -87,10 +87,10 @@ main .main_img {
   width: 100%;
 }
 
-main .google,
-main .final-pink .buttons .slack,
-.final-pink .buttons main .slack,
-main .slack {
+main .jumbo-button .google,
+main .jumbo-button .final-pink .buttons .slack,
+.final-pink .buttons main .jumbo-button .slack,
+main .jumbo-button .slack {
   border-radius: 7px;
   background-color: #30488F;
   color: white;
@@ -99,15 +99,14 @@ main .slack {
   margin-top: 30px;
 }
 
-main span,
-main a {
+main .jumbo-button span {
   font-size: 15px;
   padding: 10px;
-  color: lightgrey;
+  color: #bdb5af;
 }
 
 main a {
-  color: #58402C;
+  font-size: 15px;
 }
 
 .jumboPink,
@@ -312,6 +311,12 @@ main a {
   border-style: none;
   padding: 10px 15px;
   margin-top: 30px;
+}
+
+.final-pink .buttons span {
+  font-size: 15px;
+  padding: 10px;
+  color: #bdb5af;
 }
 
 .final-pink .emailAddress {
