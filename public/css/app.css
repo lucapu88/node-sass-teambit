@@ -119,8 +119,14 @@ main a {
           align-items: center;
 }
 
-.jumboPink h2 {
-  padding: 70px 100px;
+.jumboPink .title {
+  width: 730px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.jumboPink .title h2 {
+  padding: 70px 100px 0;
 }
 
 .threeBlockContainer {
@@ -131,19 +137,33 @@ main a {
   padding: 0 100px;
 }
 
-.threeBlockContainer .block1,
-.threeBlockContainer .block3,
-.threeBlockContainer .block2 {
+.threeBlockContainer .block {
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 270px;
 }
 
-.threeBlockContainer .block1 img,
-.threeBlockContainer .block3 img,
-.threeBlockContainer .block2 img {
-  padding: 50px;
-  margin: 20px;
+.threeBlockContainer .block .BlockImg-container {
   width: 250px;
-  height: 200px;
+  height: 150px;
+  padding-top: 15px;
+}
+
+.threeBlockContainer .block .BlockImg-container img {
+  display: block;
+  height: 140px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.threeBlockContainer .block .text {
+  width: 160px;
+  line-height: 1.4;
+  text-align: center;
 }
 

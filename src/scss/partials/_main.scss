@@ -39,27 +39,39 @@ main {
   flex-direction: column;
   background-color: #FFE7D2;
   align-items: center;
-  h2 {
-    padding: 70px 100px;
+  .title {
+    width: 730px;
+    text-align: center;
+    line-height: 1.4;
+    h2 {
+      padding: 70px 100px 0;
+    }
   }
 }
 .threeBlockContainer {
   display: flex;
   justify-content: center;
   padding: 0 100px;
-  .block1 {
+  .block {
     display: flex;
-    img {
-      padding: 50px;
-      margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    .BlockImg-container {
       width: 250px;
-      height: 200px;
+      height: 150px;
+      padding-top: 15px;
+      img {
+        display: block;
+        height: 140px;
+        padding: 20px;
+        margin: 0 auto;
+      }
     }
+    .text {
+      width: 160px;
+      line-height: 1.4;
+      text-align: center;
     }
-  .block2 {
-    @extend .block1;
-  }
-  .block3 {
-    @extend .block1;
   }
 }
