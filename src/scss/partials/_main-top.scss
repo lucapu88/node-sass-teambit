@@ -18,20 +18,11 @@ main {
   .main_img {
     width: 100%;
   }
-  .google {
-    @include buttonProperty($buttonColor);
-  }
-  .slack {
-    @extend .google;
-  }
-  span {
-    font-size: 15px;
-    padding: 10px;
-    color: lightgrey;
+  .jumbo-button {
+    @include div();
   }
   a {
-    @extend span;
-    color: $fontColor;
+    font-size: 15px;
   }
 }
 .jumboPink {

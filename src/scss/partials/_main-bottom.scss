@@ -75,14 +75,7 @@
     }
   }
   .buttons { //se gli do come nome jumbo-button non prende le stesse proprietà
-    // @extend .jumbo-button; //non funziona
-
-    .google {
-      @include buttonProperty($buttonColor);
-    }
-    .slack {
-      @extend .google;
-    }
+     @include div();
   }
   .emailAddress {
     padding: 20px 0 50px;

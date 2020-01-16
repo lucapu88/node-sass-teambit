@@ -5,7 +5,7 @@ $backgroundColor: #FFE7D2;
 $borderStyle: 1px solid ;
 $borderRadius: 7px;
 $lineHeight: 1.5;
-@mixin buttonProperty($color) { //setta le proprietà dei bottoni blu
+@mixin buttonProperty($color) { //setta le proprietà dei pulsanti blu
   border-radius: $borderRadius;
   background-color: $color;
   color: white;
@@ -13,7 +13,20 @@ $lineHeight: 1.5;
   padding: 10px 15px;
   margin-top: 30px;
 }
-@mixin otherButtonProp() { //setta le proprietà dei bottoni diversi da quelli blu
+@mixin div(){ //setta un'intero div con i pulsanti e tutto il resto
+  .google {
+    @include buttonProperty($buttonColor);
+  }
+  .slack {
+    @extend .google;
+  }
+  span {
+    font-size: 15px;
+    padding: 10px;
+    color: #bdb5af;
+  }
+}
+@mixin otherButtonProp() { //setta le proprietà dei pulsanti diversi da quelli blu
   border-color: $buttonColor;
   color: $buttonColor;
   border-radius: $borderRadius;
