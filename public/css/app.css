@@ -17,6 +17,10 @@ body {
   color: #58402C;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 86%;
   margin: 0 7% 0 7%;
@@ -97,7 +101,7 @@ main span,
 main a {
   font-size: 15px;
   padding: 10px;
-  color: grey;
+  color: lightgrey;
 }
 
 main a {
@@ -107,9 +111,39 @@ main a {
 .jumboPink {
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   background-color: #FFE7D2;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.jumboPink h2 {
+  padding: 70px 100px;
+}
+
+.threeBlockContainer {
+  display: -webkit-box;
+  display: flex;
   -webkit-box-pack: center;
           justify-content: center;
-  padding: 50px 100px;
+  padding: 0 100px;
+}
+
+.threeBlockContainer .block1,
+.threeBlockContainer .block3,
+.threeBlockContainer .block2 {
+  display: -webkit-box;
+  display: flex;
+}
+
+.threeBlockContainer .block1 img,
+.threeBlockContainer .block3 img,
+.threeBlockContainer .block2 img {
+  padding: 50px;
+  margin: 20px;
+  width: 250px;
+  height: 200px;
 }
 

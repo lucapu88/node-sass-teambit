@@ -27,7 +27,7 @@ main {
   span {
     font-size: 15px;
     padding: 10px;
-    color: grey;
+    color: lightgrey;
   }
   a {
     @extend span;
@@ -36,7 +36,30 @@ main {
 }
 .jumboPink {
   display: flex;
+  flex-direction: column;
   background-color: #FFE7D2;
+  align-items: center;
+  h2 {
+    padding: 70px 100px;
+  }
+}
+.threeBlockContainer {
+  display: flex;
   justify-content: center;
-  padding: 50px 100px;
+  padding: 0 100px;
+  .block1 {
+    display: flex;
+    img {
+      padding: 50px;
+      margin: 20px;
+      width: 250px;
+      height: 200px;
+    }
+    }
+  .block2 {
+    @extend .block1;
+  }
+  .block3 {
+    @extend .block1;
+  }
 }
