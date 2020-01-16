@@ -12,7 +12,7 @@ main {
   .jumbo {
     @extend .jumbo-img;
     font-size: 25px;
-    line-height: 1.4;
+    line-height: $lineHeight;
     margin-right: 50px;
   }
   .main_img {
@@ -37,12 +37,12 @@ main {
 .jumboPink {
   display: flex;
   flex-direction: column;
-  background-color: #FFE7D2;
+  background-color: $backgroundColor;
   align-items: center;
   .title {
     width: 730px;
     text-align: center;
-    line-height: 1.4;
+    line-height: $lineHeight;
     h2 {
       padding: 70px 100px 0;
     }
@@ -70,8 +70,20 @@ main {
     }
     .text {
       width: 160px;
-      line-height: 1.4;
+      line-height: $lineHeight;
       text-align: center;
     }
   }
+}
+.rabbitImg {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 80px;
+  width: 86%;
+  margin-bottom: 50px;
+  border-bottom: $borderStyle $fontColor;
+  img {
+    width: 280px;
+  }
+  // Ci sarebbe un altro pezzo quasi identico a tutto ciò che c'è in jumboPink, ma lo salto per non fare copia e incolla
 }

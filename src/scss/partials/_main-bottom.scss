@@ -1,0 +1,77 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  .feedback-container {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .feedback-img {
+      width: 50%;
+      img {
+        max-width: 100%;
+      }
+    }
+    .feedback-learnMore {
+      @extend .feedback-img;
+      margin-left: 20px;
+      .learnMore-top {
+        width: 295px;
+        line-height: $lineHeight;
+        p, a {
+          font-size: 20px;
+          padding-bottom: 30px;
+        }
+      }
+      .learnMore-bottom {
+        width: 300px;
+        padding: 20px 0 0 50px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .survey-container {
+    @extend .feedback-container;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+    .survey-img {
+      @extend .feedback-img;
+    }
+    .survey-learnMore {
+      @extend .feedback-learnMore;
+      .surveyLearnMore-top {
+        @extend .learnMore-top;
+        margin-left: 35%;
+        width: 385px;
+      }
+      .surveyLearnMore-bottom {
+        @extend .learnMore-bottom;
+        margin-left: 40%;
+      }
+    }
+  }
+  // ci sarebbero altri 2 contenitori uguali a feedback-container e a survey-container ma li salto per non fare copia e incolla
+}
+.final-pink {
+  @extend .jumboPink;
+  justify-content: center;
+  .title-text {
+    padding: 60px 0;
+    line-height: $lineHeight;
+    width: 400px;
+    font-size: 25px;
+  }
+  .whiteSquare {
+    background-color: white;
+    width: 550px;
+    line-height: $lineHeight;
+    padding: 20px;
+    border: $borderStyle grey;
+    border-radius: 5px;
+    p {
+      padding: 10px;
+    }
+  }
+}
