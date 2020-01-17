@@ -10,7 +10,7 @@ $lineHeight: 1.6;
   background-color: $color;
   color: white;
   border-style: none;
-  padding: 10px 15px;
+  padding: 5px 15px;
   margin-top: 30px;
 }
 @mixin div(){ //setta un'intero div con i pulsanti e tutto il resto
@@ -31,7 +31,7 @@ $lineHeight: 1.6;
   color: $buttonColor;
   border-radius: $borderRadius;
   background-color: transparent;
-  padding: 5px 15px;
+  padding: 5px 10px;
 }
 @mixin sizeContainer() { //setta le dimensioni di un contenitore
   width: 86%;

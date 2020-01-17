@@ -1,10 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);@charset "UTF-8";
-
 /*!
  * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-
 .fa,
 .fas,
 .far,
@@ -84,7 +82,6 @@
   margin-left: 2.5em;
   padding-left: 0;
 }
-
 .fa-ul > li {
   position: relative;
 }
@@ -118,7 +115,6 @@
 .fab.fa-pull-left {
   margin-right: 0.3em;
 }
-
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
@@ -142,7 +138,6 @@
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
@@ -154,13 +149,11 @@
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
 }
-
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
@@ -191,8 +184,7 @@
           transform: scale(1, -1);
 }
 
-.fa-flip-both,
-.fa-flip-horizontal.fa-flip-vertical {
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(-1, -1);
           transform: scale(-1, -1);
@@ -239,7 +231,6 @@
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
-
 .fa-500px:before {
   content: "\F26E";
 }
@@ -5863,8 +5854,7 @@ readers do not read off random characters that represent icons */
   width: 1px;
 }
 
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
+.sr-only-focusable:active, .sr-only-focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -5877,16 +5867,14 @@ readers do not read off random characters that represent icons */
  * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-
 @font-face {
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?3ac49cb33f43a6471f21ab3df40d1b1e);
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?3ac49cb33f43a6471f21ab3df40d1b1e) format("embedded-opentype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2?9efb86976bd53e159166c12365f61e25) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff?a57bcf76c178aee452db7a57b75509b6) format("woff"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf?ece54318791c51b52dfdc689efdb6271) format("truetype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg?d2e53334c22a9a4937bc26e84b36e1e0) format("svg");
+  src: url("fontawesome/fonts/fa-regular-400.eot");
+  src: url("fontawesome/fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("fontawesome/fonts/fa-regular-400.woff2") format("woff2"), url("fontawesome/fonts/fa-regular-400.woff") format("woff"), url("fontawesome/fonts/fa-regular-400.ttf") format("truetype"), url("fontawesome/fonts/fa-regular-400.svg#fontawesome") format("svg");
 }
-
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -5896,16 +5884,14 @@ readers do not read off random characters that represent icons */
  * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-
 @font-face {
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?7fb1cdd9c3b889161216a13267b55fe2);
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?7fb1cdd9c3b889161216a13267b55fe2) format("embedded-opentype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2?f6121be597a72928f54e7ab5b95512a1) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff?93f284548b42ab76fe3fd03a9d3a2180) format("woff"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf?2aa6edf8f296a43b32df35f330b7c81c) format("truetype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg?7a5de9b08012e4da40504f2cf126a351) format("svg");
+  src: url("fontawesome/fonts/fa-solid-900.eot");
+  src: url("fontawesome/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("fontawesome/fonts/fa-solid-900.woff2") format("woff2"), url("fontawesome/fonts/fa-solid-900.woff") format("woff"), url("fontawesome/fonts/fa-solid-900.ttf") format("truetype"), url("fontawesome/fonts/fa-solid-900.svg#fontawesome") format("svg");
 }
-
 .fa,
 .fas {
   font-family: "Font Awesome 5 Free";
@@ -5916,16 +5902,14 @@ readers do not read off random characters that represent icons */
  * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-
 @font-face {
   font-family: "Font Awesome 5 Brands";
   font-style: normal;
   font-weight: normal;
   font-display: auto;
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?088a34f78f530102fd9661173b4a4f26);
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?088a34f78f530102fd9661173b4a4f26) format("embedded-opentype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2?822d94f19fe57477865209e1242a3c63) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff?f4920c94c0861c537f72ba36590f6362) format("woff"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf?273dc9bf9778fd37fa61357645d46a28) format("truetype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg?d72293118cda50ec50c39957d9d836d0) format("svg");
+  src: url("fontawesome/fonts/fa-brands-400.eot");
+  src: url("fontawesome/fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fontawesome/fonts/fa-brands-400.woff2") format("woff2"), url("fontawesome/fonts/fa-brands-400.woff") format("woff"), url("fontawesome/fonts/fa-brands-400.ttf") format("truetype"), url("fontawesome/fonts/fa-brands-400.svg#fontawesome") format("svg");
 }
-
 .fab {
   font-family: "Font Awesome 5 Brands";
 }
@@ -5941,7 +5925,6 @@ a {
   color: #58402C;
   font-size: 13px;
 }
-
 a:hover {
   color: #30488F;
 }
@@ -5955,11 +5938,15 @@ button {
   cursor: pointer;
 }
 
+.fab {
+  font-size: 20px;
+  padding: 5px;
+}
+
 .container {
   width: 86%;
   margin: 0 7% 0 7%;
 }
-
 .container header {
   background-color: white;
   color: #58402C;
@@ -5973,24 +5960,42 @@ button {
   width: 86%;
   padding: 20px 15px;
 }
-
 .container .info {
   display: -webkit-box;
   display: flex;
 }
-
 .container .info a {
   padding: 10px;
   margin-right: 10px;
   font-weight: bold;
 }
-
 .container .info button {
   border-color: #30488F;
   color: #30488F;
   border-radius: 7px;
   background-color: transparent;
-  padding: 5px 15px;
+  padding: 5px 10px;
+}
+
+.chat {
+  border-radius: 50%;
+  background-color: #30488F;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border: none;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+.chat .fas {
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 17px 10px;
 }
 
 main {
@@ -6000,52 +6005,40 @@ main {
   -webkit-box-direction: normal;
           flex-direction: column;
 }
-
 main .jumbo-container {
   display: -webkit-box;
   display: flex;
 }
-
-main .jumbo-img,
-main .jumbo {
+main .jumbo-img, main .jumbo {
   width: 50%;
   margin: 150px 0 100px 0;
 }
-
 main .jumbo {
   font-size: 25px;
   line-height: 1.6;
   margin-right: 50px;
 }
-
 main .main_img {
   width: 100%;
 }
-
-main .jumbo-button .google,
-main .jumbo-button .final-pink .buttons .slack,
-.final-pink .buttons main .jumbo-button .slack,
-main .jumbo-button .slack {
+main .jumbo-button .google, main .jumbo-button .final-pink .buttons .slack, .final-pink .buttons main .jumbo-button .slack, main .jumbo-button .slack {
   border-radius: 7px;
   background-color: #30488F;
   color: white;
   border-style: none;
-  padding: 10px 15px;
+  padding: 5px 15px;
   margin-top: 30px;
 }
-
 main .jumbo-button span {
   font-size: 15px;
   padding: 10px;
   color: #bdb5af;
 }
-
 main a {
   font-size: 15px;
 }
 
-.jumboPink,
-.final-pink {
+.jumboPink, .final-pink {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -6055,16 +6048,12 @@ main a {
   -webkit-box-align: center;
           align-items: center;
 }
-
-.jumboPink .title,
-.final-pink .title {
+.jumboPink .title, .final-pink .title {
   width: 760px;
   text-align: center;
   line-height: 1.6;
 }
-
-.jumboPink .title h2,
-.final-pink .title h2 {
+.jumboPink .title h2, .final-pink .title h2 {
   padding: 70px 100px 0;
 }
 
@@ -6075,7 +6064,6 @@ main a {
           justify-content: center;
   padding: 0 100px;
 }
-
 .threeBlockContainer .block {
   display: -webkit-box;
   display: flex;
@@ -6086,20 +6074,17 @@ main a {
           align-items: center;
   width: 270px;
 }
-
 .threeBlockContainer .block .BlockImg-container {
   width: 250px;
   height: 150px;
   padding-top: 15px;
 }
-
 .threeBlockContainer .block .BlockImg-container img {
   display: block;
   height: 140px;
   padding: 20px;
   margin: 0 auto;
 }
-
 .threeBlockContainer .block .text {
   width: 180px;
   line-height: 1.6;
@@ -6116,7 +6101,6 @@ main a {
   margin-bottom: 50px;
   border-bottom: 1px solid #58402C;
 }
-
 .rabbitImg img {
   width: 280px;
 }
@@ -6128,87 +6112,47 @@ main a {
   -webkit-box-direction: normal;
           flex-direction: column;
 }
-
-#container .feedback-container,
-#container .survey-container {
+#container .feedback-container, #container .survey-container {
   display: -webkit-box;
   display: flex;
   width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-#container .feedback-container .feedback-img,
-#container .survey-container .feedback-img,
-#container .survey-container .survey-img,
-#container .feedback-container .feedback-learnMore,
-#container .survey-container .feedback-learnMore,
-#container .survey-container .survey-learnMore {
+#container .feedback-container .feedback-img, #container .survey-container .feedback-img, #container .survey-container .survey-img, #container .feedback-container .feedback-learnMore, #container .survey-container .feedback-learnMore, #container .survey-container .survey-learnMore {
   width: 50%;
 }
-
-#container .feedback-container .feedback-img img,
-#container .survey-container .feedback-img img,
-#container .survey-container .survey-img img,
-#container .feedback-container .feedback-learnMore img,
-#container .survey-container .feedback-learnMore img,
-#container .survey-container .survey-learnMore img {
+#container .feedback-container .feedback-img img, #container .survey-container .feedback-img img, #container .survey-container .survey-img img, #container .feedback-container .feedback-learnMore img, #container .survey-container .feedback-learnMore img, #container .survey-container .survey-learnMore img {
   max-width: 100%;
 }
-
-#container .feedback-container .feedback-learnMore,
-#container .survey-container .feedback-learnMore,
-#container .survey-container .survey-learnMore {
+#container .feedback-container .feedback-learnMore, #container .survey-container .feedback-learnMore, #container .survey-container .survey-learnMore {
   margin-left: 20px;
 }
-
-#container .feedback-container .feedback-learnMore .learnMore-top,
-#container .survey-container .feedback-learnMore .learnMore-top,
-#container .survey-container .survey-learnMore .learnMore-top,
-#container .survey-container .survey-learnMore .surveyLearnMore-top {
+#container .feedback-container .feedback-learnMore .learnMore-top, #container .survey-container .feedback-learnMore .learnMore-top, #container .survey-container .survey-learnMore .learnMore-top, #container .survey-container .survey-learnMore .surveyLearnMore-top {
   width: 370px;
   line-height: 1.6;
 }
-
-#container .feedback-container .feedback-learnMore .learnMore-top p,
-#container .survey-container .feedback-learnMore .learnMore-top p,
-#container .survey-container .survey-learnMore .learnMore-top p,
-#container .survey-container .survey-learnMore .surveyLearnMore-top p,
-#container .feedback-container .feedback-learnMore .learnMore-top a,
-#container .survey-container .feedback-learnMore .learnMore-top a,
-#container .survey-container .survey-learnMore .learnMore-top a,
-#container .survey-container .survey-learnMore .surveyLearnMore-top a {
+#container .feedback-container .feedback-learnMore .learnMore-top p, #container .survey-container .feedback-learnMore .learnMore-top p, #container .survey-container .survey-learnMore .learnMore-top p, #container .survey-container .survey-learnMore .surveyLearnMore-top p, #container .feedback-container .feedback-learnMore .learnMore-top a, #container .survey-container .feedback-learnMore .learnMore-top a, #container .survey-container .survey-learnMore .learnMore-top a, #container .survey-container .survey-learnMore .surveyLearnMore-top a {
   font-size: 20px;
   padding-bottom: 30px;
 }
-
-#container .feedback-container .feedback-learnMore .learnMore-bottom,
-#container .survey-container .feedback-learnMore .learnMore-bottom,
-#container .survey-container .survey-learnMore .learnMore-bottom,
-#container .survey-container .survey-learnMore .surveyLearnMore-bottom {
+#container .feedback-container .feedback-learnMore .learnMore-bottom, #container .survey-container .feedback-learnMore .learnMore-bottom, #container .survey-container .survey-learnMore .learnMore-bottom, #container .survey-container .survey-learnMore .surveyLearnMore-bottom {
   width: 300px;
   padding: 20px 0 0 50px;
 }
-
-#container .feedback-container .feedback-learnMore .learnMore-bottom img,
-#container .survey-container .feedback-learnMore .learnMore-bottom img,
-#container .survey-container .survey-learnMore .learnMore-bottom img,
-#container .survey-container .survey-learnMore .surveyLearnMore-bottom img {
+#container .feedback-container .feedback-learnMore .learnMore-bottom img, #container .survey-container .feedback-learnMore .learnMore-bottom img, #container .survey-container .survey-learnMore .learnMore-bottom img, #container .survey-container .survey-learnMore .surveyLearnMore-bottom img {
   width: 100%;
 }
-
 #container .survey-container {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
           flex-direction: row-reverse;
   margin-top: 0px;
 }
-
 #container .survey-container .survey-learnMore .surveyLearnMore-top {
   margin-left: 35%;
   width: 385px;
 }
-
 #container .survey-container .survey-learnMore .surveyLearnMore-bottom {
   margin-left: 40%;
 }
@@ -6217,14 +6161,12 @@ main a {
   -webkit-box-pack: center;
           justify-content: center;
 }
-
 .final-pink .title-text {
   padding: 60px 0;
   line-height: 1.6;
   width: 440px;
   font-size: 25px;
 }
-
 .final-pink .whiteSquare {
   background-color: white;
   width: 650px;
@@ -6233,27 +6175,22 @@ main a {
   border: 1px solid grey;
   border-radius: 5px;
 }
-
 .final-pink .whiteSquare p {
   padding: 10px;
 }
-
-.final-pink .buttons .google,
-.final-pink .buttons .slack {
+.final-pink .buttons .google, .final-pink .buttons .slack {
   border-radius: 7px;
   background-color: #30488F;
   color: white;
   border-style: none;
-  padding: 10px 15px;
+  padding: 5px 15px;
   margin-top: 30px;
 }
-
 .final-pink .buttons span {
   font-size: 15px;
   padding: 10px;
   color: #bdb5af;
 }
-
 .final-pink .emailAddress {
   padding: 20px 0 50px;
 }
@@ -6265,7 +6202,6 @@ footer {
   display: flex;
   padding: 50px 0 30px;
 }
-
 footer .column-teambit {
   display: -webkit-box;
   display: flex;
@@ -6273,29 +6209,24 @@ footer .column-teambit {
   margin-right: 30px;
   line-height: 1.6;
 }
-
 footer .column-teambit img {
   height: 75px;
   width: 150px;
   padding: 11px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
-
 footer .column-teambit p {
   font-weight: bolder;
   margin-top: 5%;
   font-size: 18px;
 }
-
 footer .column-teambit p a {
   color: #30488F;
   font-size: 18px;
 }
-
 footer .column-teambit p a:hover {
   text-decoration: underline;
 }
-
 footer .column {
   display: -webkit-box;
   display: flex;
@@ -6305,4 +6236,3 @@ footer .column {
   padding: 10px 20px;
   line-height: 2.6;
 }
-

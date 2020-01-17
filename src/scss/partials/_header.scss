@@ -24,3 +24,21 @@
     }
   }
 }
+.chat {
+  border-radius: 50%;
+  background-color: $buttonColor;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  .fas {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 17px 10px;
+  }
+}
