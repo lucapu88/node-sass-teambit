@@ -12,7 +12,7 @@
     width: 86%;
     padding: 20px 15px;
   }
-  .info {
+  .info { //parte della navbar
     display: flex;
     a {
       padding: 10px;
@@ -24,7 +24,7 @@
     }
   }
 }
-.chat {
+.chat { //pulsante chat fisso in basso
   border-radius: 50%;
   background-color: $buttonColor;
   color: white;

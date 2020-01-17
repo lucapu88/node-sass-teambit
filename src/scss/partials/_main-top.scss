@@ -1,11 +1,11 @@
-//parte centrale
+//parte centrale prima fase
 main {
   display: flex;
   flex-direction: column;
   .jumbo-container {
     display: flex;
   }
-  .jumbo-img {
+  .jumbo-img { //prima sezione bianca
     width: 50%;
     margin: 150px 0 100px 0;
   }
@@ -23,9 +23,9 @@ main {
   }
   a {
     font-size: 15px;
-  }
+  } //fine prima sezione bianca
 }
-.jumboPink {
+.jumboPink { //prima sezione rosa
   display: flex;
   flex-direction: column;
   background-color: $backgroundColor;
@@ -43,7 +43,7 @@ main {
   display: flex;
   justify-content: center;
   padding: 0 100px;
-  .block {
+  .block { //sezione con 3 colonne, 3 img con testo sotto
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,21 +52,21 @@ main {
       width: 250px;
       height: 150px;
       padding-top: 15px;
-      img {
+      img { //3 img
         display: block;
         height: 140px;
         padding: 20px;
         margin: 0 auto;
       }
     }
-    .text {
+    .text { //testo sotto
       width: 180px;
       line-height: $lineHeight;
       text-align: center;
     }
   }
 }
-.rabbitImg {
+.rabbitImg { //sezione immagine del coniglietto
   display: flex;
   justify-content: center;
   padding: 80px 0 80px;

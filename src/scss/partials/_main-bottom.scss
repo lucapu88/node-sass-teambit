@@ -1,7 +1,7 @@
-#container {
+#container { //parte centrale seconda fase
   display: flex;
   flex-direction: column;
-  .feedback-container {
+  .feedback-container {  //seconda sezione bianca
     display: flex;
     width: 100%;
     margin-top: 100px;
@@ -32,7 +32,7 @@
       }
     }
   }
-  .survey-container {
+  .survey-container { //stessa cosa di su ma con verso opposto
     @extend .feedback-container;
     flex-direction: row-reverse;
     margin-top: 0px;
@@ -54,7 +54,7 @@
   }
   // ci sarebbero altri 2 contenitori uguali a feedback-container e a survey-container ma li salto per non fare copia e incolla
 }
-.final-pink {
+.final-pink {  //seconda sezione rosa
   @extend .jumboPink;
   justify-content: center;
   .title-text {
