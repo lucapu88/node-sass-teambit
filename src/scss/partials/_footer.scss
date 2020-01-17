@@ -5,20 +5,22 @@ footer {
   padding: 50px 0 30px;
   .column-teambit{
     display: flex;
-    width: 425px;
+    width: 380px;
     margin-right: 30px;
+    line-height: $lineHeight;
     img {
       height: 75px;
       width: 150px;
-      padding: 15px;
+      padding: 11px;
       margin-top: 15px;
     }
     p {
       font-weight: bolder;
       margin-top: 5%;
-      font-size: 20px;
+      font-size: 18px;
       a {
         color: $buttonColor;
+        font-size: 18px;
         &:hover {
           text-decoration: underline;
         }
@@ -28,7 +30,7 @@ footer {
   .column {
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    line-height: $lineHeight;
+    padding: 10px 20px;
+    line-height: $lineHeight + 1;
   }
 }

@@ -16,7 +16,7 @@
       @extend .feedback-img;
       margin-left: 20px;
       .learnMore-top {
-        width: 295px;
+        width: 370px;
         line-height: $lineHeight;
         p, a {
           font-size: 20px;
@@ -60,12 +60,12 @@
   .title-text {
     padding: 60px 0;
     line-height: $lineHeight;
-    width: 400px;
+    width: 440px;
     font-size: 25px;
   }
   .whiteSquare {
     background-color: white;
-    width: 550px;
+    width: 650px;
     line-height: $lineHeight;
     padding: 20px 30px;
     border: $borderStyle grey;

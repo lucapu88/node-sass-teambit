@@ -4,7 +4,7 @@ $fontColor: #58402C;
 $backgroundColor: #FFE7D2;
 $borderStyle: 1px solid ;
 $borderRadius: 7px;
-$lineHeight: 1.5;
+$lineHeight: 1.6;
 @mixin buttonProperty($color) { //setta le proprietà dei pulsanti blu
   border-radius: $borderRadius;
   background-color: $color;
