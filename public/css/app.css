@@ -1,4 +1,4 @@
-* {
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,6 +15,7 @@ a:hover {
 
 body {
   color: #58402C;
+  font-family: "Roboto", sans-serif;
 }
 
 button {
@@ -37,7 +38,7 @@ button {
   position: fixed;
   top: 0;
   width: 86%;
-  padding: 15px;
+  padding: 20px 15px;
 }
 
 .container .info {
