@@ -10719,7 +10719,9 @@ $(document).ready(function () {
     //quando vado a fare scroll con il mouse
     st = $(this).scrollTop(); //imposto la posizione di scorrimento
 
-    if (st > prevTop && st > hHeight) {
+    console.log(st);
+
+    if (st > 500) {
       //se la posizione di scorrimento è maggiore della posizione iniziale e se è maggiore anche dell'laltezza dell'header (quindi quando faccio scroll in basso)
       headerVisible.addClass('hidden'); //nascondo la nav bar che è normalmente visibile
 
@@ -10731,7 +10733,7 @@ $(document).ready(function () {
       headerHidden.removeClass('active'); //nascondo la navbar che prima avevo mostrato
     }
 
-    prevTop = st;
+    prevTop = st; //la posizione iniziale sulla posizione corrente sulla pagina, diventa la posizione di scorrimento
   });
 });
 
