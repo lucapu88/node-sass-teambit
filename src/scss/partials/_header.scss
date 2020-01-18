@@ -1,23 +1,31 @@
-// barra iniziale
-.container {
-  @include sizeContainer();
-  header {
-    background-color: white;
-    color: $fontColor;
-    border-bottom: $borderStyle $fontColor;
-    display:flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    width: 86%;
-    padding: 20px 15px;
-  }
-  .info { //parte della navbar
+// parte iniziale
+.header-fixed { //inizio navbar che appare con javascript
+ @include header();
+ position: fixed;
+ top: 0;
+ width: 100%;
+ padding: 12px 90px 5px;
+ display: none;
+  .info2 {
     display: flex;
     a {
-      padding: 10px;
-      margin-right: 10px;
-      font-weight: bold;
+      @include infoNav();
+    }
+  }
+  button {
+    @include buttonProperty($buttonColor);
+    margin-top: 0px;
+  }
+} //fine navbar che appare con javascript
+.container { //inizio navbar che si nota all'inizio e poi viene nascosta
+  @include sizeContainer();
+  .header-top {
+    @include header();
+    .info {
+      display: flex;
+      a {
+        @include infoNav();
+      }
     }
     button {
       @include otherButtonProp();

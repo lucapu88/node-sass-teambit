@@ -5,6 +5,19 @@ $backgroundColor: #FFE7D2;
 $borderStyle: 1px solid ;
 $borderRadius: 7px;
 $lineHeight: 1.6;
+@mixin header() { //setta le proprietà dell'header
+  background-color: white;
+  color: $fontColor;
+  border-bottom: $borderStyle $fontColor;
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+@mixin infoNav() { //setta le proprietà delle a del menu all'interno dell'header
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
 @mixin buttonProperty($color) { //setta le proprietà dei pulsanti blu
   border-radius: $borderRadius;
   background-color: $color;

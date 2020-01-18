@@ -7,8 +7,20 @@
     <link rel="stylesheet" href="public/css/app.css">
   </head>
   <body>
-    <div class="container">
-      <header>
+    <header class="header-fixed"> <!--navbar nascosta che viene fissata con javascript INIZIO-->
+      <div class="logo">
+        <img src="https://teambit.io/wp-content/themes/teambeat/img/logo.svg" alt="teambit_logo">
+      </div>
+      <div class="info2"> <!-- parte della navbar -->
+        <a href="#">Solutions</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+        <a href="#">Sign in</a>
+        <button type="button"><i class="fab fa-google"></i> Sing up</button>
+      </div>
+    </header> <!--navbar nascosta che viene fissata con javascript FINE-->
+    <div class="container"> <!--INIZIO HEADER-->
+      <header class="header-top"> <!--prima navbar visibile-->
         <div class="logo">
           <img src="https://teambit.io/wp-content/themes/teambeat/img/logo.svg" alt="teambit_logo">
         </div>
@@ -19,8 +31,8 @@
           <a href="#">Sign in</a>
           <button type="button"><i class="fab fa-google"></i> Sing up</button>
         </div>
-        <button class="chat" type="button"><i class="fas fa-comment-alt"></i></button> <!--pulsante chat fisso in basso-->
-      </header>
+      </header> <!--FINE HEADER-->
+      <button class="chat" type="button"><i class="fas fa-comment-alt"></i></button> <!--pulsante chat fisso in basso-->
       <main> <!--INIZIO MAIN-TOP-->
         <div class="jumbo-container"> <!--prima sezione bianca -->
           <div class="jumbo"><!--per il momento uso un br-->
@@ -185,6 +197,6 @@
         <a href="#">Pricing</a>
       </div>
     </footer>
-
+  <script src="public/js/app.js" charset="utf-8"></script>
   </body>
 </html>

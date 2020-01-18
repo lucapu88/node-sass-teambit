@@ -5943,11 +5943,16 @@ button {
   padding: 5px;
 }
 
-.container {
-  width: 86%;
-  margin: 0 7% 0 7%;
+.header-fixed.active {
+  display: -webkit-box;
+  display: flex;
 }
-.container header {
+
+.header-top.hidden {
+  display: none;
+}
+
+.header-fixed {
   background-color: white;
   color: #58402C;
   border-bottom: 1px solid #58402C;
@@ -5955,21 +5960,56 @@ button {
   display: flex;
   -webkit-box-pack: justify;
           justify-content: space-between;
+  padding: 20px 15px;
   position: fixed;
   top: 0;
-  width: 86%;
-  padding: 20px 15px;
+  width: 100%;
+  padding: 12px 90px 5px;
+  display: none;
 }
-.container .info {
+.header-fixed .info2 {
   display: -webkit-box;
   display: flex;
 }
-.container .info a {
+.header-fixed .info2 a {
   padding: 10px;
   margin-right: 10px;
   font-weight: bold;
 }
-.container .info button {
+.header-fixed button {
+  border-radius: 7px;
+  background-color: #30488F;
+  color: white;
+  border-style: none;
+  padding: 5px 15px;
+  margin-top: 30px;
+  margin-top: 0px;
+}
+
+.container {
+  width: 86%;
+  margin: 0 7% 0 7%;
+}
+.container .header-top {
+  background-color: white;
+  color: #58402C;
+  border-bottom: 1px solid #58402C;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding: 20px 15px;
+}
+.container .header-top .info {
+  display: -webkit-box;
+  display: flex;
+}
+.container .header-top .info a {
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.container .header-top button {
   border-color: #30488F;
   color: #30488F;
   border-radius: 7px;

@@ -11,6 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
+mix.js('src/js/app.js', 'public/js');
 mix.sass('src/scss/app.scss', 'public/css');
 mix.copy('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/css/fontawesome/fonts');
 mix.options({processCssUrls: false});

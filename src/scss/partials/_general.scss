@@ -23,3 +23,9 @@ button {
   font-size: 20px;
   padding: 5px;
 }
+.header-fixed.active { //classe per mostrare la navbar
+  display: flex;
+}
+.header-top.hidden { //classe per nascondere la navbar
+  display: none;
+}
