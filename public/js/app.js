@@ -10711,18 +10711,15 @@ $(document).ready(function () {
 
   var headerVisible = $('.header-top'); //prendo tutto il div contenente la navbar inizialmente visibile;
 
-  var hHeight = headerHidden.height(); //prendo l'altezza dell'header da utilizzare in seguito come punto di partenza
-
   var prevTop = $(window).scrollTop(); //imposto la posizione iniziale sulla posizione corrente sulla pagina
 
   $(window).on('scroll', function (e) {
     //quando vado a fare scroll con il mouse
     st = $(this).scrollTop(); //imposto la posizione di scorrimento
+    //console.log(st);
 
-    console.log(st);
-
-    if (st > 500) {
-      //se la posizione di scorrimento è maggiore della posizione iniziale e se è maggiore anche dell'laltezza dell'header (quindi quando faccio scroll in basso)
+    if (st > 480) {
+      //se la posizione di scorrimento è maggiore a 480 (quindi quando faccio scroll in basso fino a 480px)
       headerVisible.addClass('hidden'); //nascondo la nav bar che è normalmente visibile
 
       headerHidden.addClass('active'); //mostro la nav bar che prima era nascosta

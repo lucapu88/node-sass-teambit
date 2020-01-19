@@ -7,7 +7,7 @@ $(document).ready(function(){
 $(window).on('scroll', function(e) { //quando vado a fare scroll con il mouse
   st = $(this).scrollTop(); //imposto la posizione di scorrimento
   //console.log(st);
-  if (st > 500) { //se la posizione di scorrimento è maggiore a 500 (quindi quando faccio scroll in basso fino a 500px)
+  if (st > 480) { //se la posizione di scorrimento è maggiore a 480 (quindi quando faccio scroll in basso fino a 480px)
     headerVisible.addClass('hidden'); //nascondo la nav bar che è normalmente visibile
     headerHidden.addClass('active'); //mostro la nav bar che prima era nascosta
   } else { //altrimenti (se faccio scroll in alto)
